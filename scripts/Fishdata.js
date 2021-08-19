@@ -12,7 +12,7 @@ const fishCollection = [
     {
         name: "Bart",
         food: "crustaceans",
-        image: "/img/fish_background.jpg",
+        image: "Bart.jpg",
         species: "Trigger fish",
         length: 7,
         waterType: "Salt",
@@ -22,7 +22,7 @@ const fishCollection = [
     {
         name: "Mr. Freeze",
         food: "Meal Worms",
-        image: "red.jpg",
+        image: "mrfreeze.jpg",
         species: "Tand",
         length: 3,
         waterType: "Salt",
@@ -32,7 +32,7 @@ const fishCollection = [
     {
         name: "Don Julio",
         food: "snails",
-        image: "stingray.jpg",
+        image: "don_julio.jpg",
         species: "Stingray",
         length: 9,
         waterType: "Salt",
@@ -42,7 +42,7 @@ const fishCollection = [
     {
         name: "Nemo",
         food: "Goldfish",
-        image: "blue.jpg",
+        image: "nemo.jpg",
         species: "Clown",
         length: 3,
         waterType: "Salt",
@@ -51,7 +51,7 @@ const fishCollection = [
     {
         name: "Jeff",
         food: "Forage Fish",
-        image: "green.jpg",
+        image: "jeff.jpg",
         species: "Bluefish",
         length: 3,
         waterType: "Salt",
@@ -60,7 +60,7 @@ const fishCollection = [
     {
         name: "Karen",
         food: "Algae",
-        image: "yellow.jpg",
+        image: "karen.jpg",
         species: "Siamese algae eater",
         length: 5,
         waterType: "salt", 
@@ -70,7 +70,7 @@ const fishCollection = [
     {
         name: "Robin Gilliams",
         food: "Bee Moths",
-        image: "orange.jpg",
+        image: "robin_gilliams.jpg",
         species: "Clownfish",
         length: 2,
         waterType: "Salt",
@@ -79,7 +79,7 @@ const fishCollection = [
     {
         name: "doctor fish",
         diet: "biofilm ",
-        image: "green.jpg",
+        image: "dr_fish.jpg",
         species: "Tinca tinca",
         length: 3.9,
         waterType: "Fresh Water",
@@ -97,7 +97,7 @@ const fishCollection = [
     {
         name: "Gordon",
         food: "Krill",
-        image: "pink.jpg",
+        image: "gordon.jpg",
         species: "Blowfish",
         length: 3,
         waterType: "Salt",
@@ -106,7 +106,7 @@ const fishCollection = [
     {
         name: "Bloat",
         food: "shrimp",
-        image: "yellow.jpg",
+        image: "bloat.jpg",
         species: "Blow Fish",
         length: 5,
         waterType: "Salt",
@@ -115,7 +115,7 @@ const fishCollection = [
     {
         name: "Marlin",
         food: "Mealworms",
-        image: "orange.jpg",
+        image: "marlin.jpg",
         species: "clownfish",
         length: 4,
         waterType: "Saltwater",

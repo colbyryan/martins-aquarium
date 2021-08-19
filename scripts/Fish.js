@@ -7,7 +7,7 @@ export const Fish = (fishObj) => {
 					<li class="fish-details">Length: ${fishObj.length} inches</li>
 					<li class="fish-details">Found: ${fishObj.harvestLocation}</li>
 					<li class="fish-details">Diet: ${fishObj.food}</li>
-                    <li class="fish-details">Water: ${fishObj.waterType}</li>
+                    <li class="fish-details">${fishObj.waterType}</li>
 				</ul>
         	</article>`
 }
