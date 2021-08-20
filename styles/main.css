@@ -1,7 +1,7 @@
 /* @import "tips.css"; */
 
 body {
-  background-color: antiquewhite;
+  background-image: url(/Images/ocean.jpg);
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -26,7 +26,7 @@ nav ul {
   margin: 0;
   padding: 1em;
   overflow: hidden;
-  background-color: rgb(100, 128, 128);
+  background-color: rgb(241, 250, 189);
   display: flex;
   justify-content: flex-end;
 }
@@ -56,6 +56,7 @@ nav a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  max-width: 75%;
 }
 
 .fish-card {
@@ -80,8 +81,42 @@ nav a:active {
   margin: 1em;
 }
 
+/* TIPS SECTION  */
+.Tips {
+  border: rgb(1, 1, 44) 3px solid;
+  background-color: rgb(241, 250, 189);
+}
+
+.Tips h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(1, 1, 44);
+  font-size: 1.25em;
+  border-bottom: rgb(1, 1, 44) 3px solid;
+  padding-bottom: 20px;
+}
+
+.tip-card li {
+  padding-bottom: 20px;
+  list-style-type: circle;
+  color: rgb(1, 1, 44);
+  font-weight: bold;
+}
+
+/* LOCATIONS SECTION  */
+
+.Location {
+  background-color: rgb(241, 250, 189);
+}
+
+.Location h2 {
+  padding-left: 18px;
+  font-weight: bold;
+  color: rgb(1, 1, 44);
+  font-size: 1.75em;
+}
+
 footer {
-  background-color: darkcyan;
   color: whitesmoke;
   text-align: center;
 }

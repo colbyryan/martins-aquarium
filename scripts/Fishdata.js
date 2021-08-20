@@ -120,6 +120,26 @@ const fishCollection = [
         length: 4,
         waterType: "Saltwater",
         harvestLocation: "Bahamas"
-    }
+    },
+    {
+        name: "Bart",
+        food: "crustaceans",
+        image: "Bart.jpg",
+        species: "Trigger fish",
+        length: 7,
+        waterType: "Salt",
+        harvestLocation: "Costa Rica"
+
+    },
+    {
+        name: "Bruce",
+        food: "not fish",
+        image: "bruce.jpg",
+        species: "greatWhite",
+        length: 130,
+        waterType: "salt",
+        harvestLocation: "Sydney"
+    },
+    
 ]
 

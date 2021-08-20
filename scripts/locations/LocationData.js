@@ -1,4 +1,8 @@
-const harvestLocation = [
+export const getLocation = () => {
+    return locationCollection
+}
+
+const locationCollection = [
     {
         name: "Don Julio",
         harvestLocation: "Dominican Republic"
@@ -46,7 +50,7 @@ const harvestLocation = [
     {
         name: "Marlin",
         harvestLocation: "Bahamas"
-    },
+    }
 
 
 ]
